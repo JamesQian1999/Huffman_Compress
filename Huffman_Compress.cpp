@@ -1,6 +1,6 @@
-// Author¡G¿ú©Ó B073021024
-//Date¡G2019.12.20
-//Purpose¡G»s§@ Huffman À£ÁY³nÅé
+// Authorï¼šéŒ¢æ‰¿
+//Dateï¼š2019.12.20
+//Purposeï¼šè£½ä½œ Huffman å£“ç¸®è»Ÿé«”
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -227,14 +227,14 @@ int main(int argc, char* argv[])
 
 	if(argc != 6)
 	{
-		cout << "«ü¥O: *.exe -(c,u) -i infile -o outfile" << endl;
+		cout << "æŒ‡ä»¤: *.exe -(c,u) -i infile -o outfile" << endl;
 		return 1;
 	}
 	fin.open(argv[3], ios::in | ios::binary);
 	fout.open(argv[5], ios::out | ios::binary);
 	if(!fin)
 	{
-		cout << "µLªkÅª¨úÀÉ®×" << endl;
+		cout << "ç„¡æ³•è®€å–æª”æ¡ˆ" << endl;
 		return 1;
 	}
 
@@ -398,7 +398,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		cout << "«ü¥O: *.exe -(c,u) -i infile -o outfile" << endl;
+		cout << "æŒ‡ä»¤: *.exe -(c,u) -i infile -o outfile" << endl;
 		return 1;
 	}
 	return 0;
